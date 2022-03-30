@@ -1,0 +1,23 @@
+body {
+    background-image: url("bgd.png");
+    background-repeat: repeat;
+}
+
+div.container {
+    margin: auto;
+    border: 10px solid green;
+    display: table;
+}
+
+div.subcontainer {
+    display: inline-flex;
+    margin: 0px;
+}
+
+
+/* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+
+.subcontainer:hover img {
+    transform: scale(1.2);
+    z-index: 99;
+}

@@ -1,5 +1,5 @@
 body {
-    background-image: url("bgd.png");
+    background-image: url("background_pic.png");
     background-repeat: repeat;
 }
 
@@ -21,4 +21,31 @@ div.subcontainer_bottom_text {
 .subcontainer:hover img {
     transform: scale(1.2);
     z-index: 99;
+}
+
+@media only screen and (max-width: 1400px) {
+    div.container {
+        zoom: 0.7;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    div.container {
+        zoom: 0.6;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    div.container {
+        zoom: 0.5;
+    }
+}
+
+
+/* phones */
+
+@media only screen and (max-width: 700px) {
+    div.container {
+        zoom: 0.25;
+    }
 }

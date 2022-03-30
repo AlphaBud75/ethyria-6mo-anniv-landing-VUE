@@ -14,8 +14,9 @@ div.subcontainer {
     margin: 0px;
 }
 
-
-/* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+div.subcontainer_bottom_text {
+    margin-top: -5px;
+}
 
 .subcontainer:hover img {
     transform: scale(1.2);

@@ -18,7 +18,18 @@ div.subcontainer_bottom_text {
     margin-top: -5px;
 }
 
+.subcontainer img {
+    -webkit-transition: transform 0.8s ease-in-out;
+    -moz-transition: transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+}
+
 .subcontainer:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
     transform: scale(1.2);
     z-index: 99;
 }
